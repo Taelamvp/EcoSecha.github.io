@@ -17,6 +17,40 @@ img {
     border-radius: 10%;
 }
 
+button {
+    border: 0;
+    background-image: linear-gradient(
+        150deg
+        #999(74, 28,)
+        rgba(160, 199, 199, 0.4)
+        rgb(74, 128, 182)
+    );
+    border-radius: 8px;
+    color: #f7f7f7;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+button span {
+    background-color: rgb(255, 232, 200);
+    padding: 10px 70px;
+    border-radius: 13px;
+    transition: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover span {
+    background: none;
+
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -28,8 +62,8 @@ img {
     min-height: 80vh;
     background: linear-gradient(
         90deg,
-        rgba(241,237,220,1) 0%,
-        rgba(255,255,253,1) 50%,
+        rgb(219, 213, 203) 0%,
+        rgb(253, 253, 255) 50%,
         rgba(252,246,231,1) 100%
     );
     padding: 70px 0;
@@ -60,7 +94,7 @@ img {
 .menu  .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #111111;
+    color: #1d1c1c;
     display: block;
 }
 
@@ -70,7 +104,7 @@ img {
 
 
 #menu {
-    display: none;
+    display:none;
 }
 
 .menu-icono {
@@ -138,7 +172,7 @@ th,  td {
 }
 
 p {
-    color: #4b4b4b4b;
+    color: #2927256e;
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -157,8 +191,10 @@ p {
     background-color: #FF3C2A;  
 }
 
+
 .header-img {
     flex-basis: 60%;
+
 }
 
 .oferts {
@@ -474,4 +510,5 @@ h3 {
         flex-direction: column;
         text-align: center;
     }
+    
 }
